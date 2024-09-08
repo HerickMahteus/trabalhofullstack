@@ -1,0 +1,43 @@
+body {
+    background-color: darkgreen;
+}
+h1, label {
+    text-align: center;
+    color: white;
+}
+button {
+    background-color: red;
+    color: white;
+}
+#btnCadastrarPessoa {
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+label {
+    line-height: 2;
+}
+input {
+    background-color: blue;
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    color: yellow;
+}
+table {
+    width: 300px;
+    margin-left: 38.5%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#novoCadastro {
+    margin-bottom: 10px;
+    align-items: center;
+    width: 300px;
+    margin-left: 37.5%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px
+}

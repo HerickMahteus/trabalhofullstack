@@ -1,0 +1,51 @@
+<!DOCTYPE hmtl>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale-1.0">
+    <title>Cadastro de Pessoas Físicas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 style="font-size: 50px">Cadastro de Pessoas</h1>
+    <hr>
+    <h1>Novo Cadastro</h1>
+    <form id="fromPessoa">
+    <div id="novoCadastro">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        <label for="nome">Cpf:</label>
+        <input type="number" id="cpf" name="cpf" required>
+        <br>
+        <label for="nome">Telefone:</label>
+        <input type="number" id="telefone" name="telefone" required>
+        <br>
+        <button type="button" id="btnCadastrarPessoa">Cadastrar Pessoa</button>
+    </div>
+    </form>
+    <hr>
+    <h1>Lista de Pessoas Cadastradas</h1>
+    <div style="text-align: center">
+    <table id="tabelaPessoas">
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Telefone</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    </div>
+    <hr>
+    <h1>Deletar Pessoa</h1>
+    <div style="text-align: center; border: 1px solid black; width: 330px; margin-left: 37.5%;">
+        <label>Cpf:</label>
+        <input type="number" id="cpfDelete" name="cpfDelete">
+        <button type="button" id="btnDeletarPessoa">Deletar Pessoa</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
